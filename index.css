@@ -1,0 +1,21 @@
+
+body{
+    
+    background-image: url("img/sky.jpg");
+    
+}
+.row{
+    
+    /*background-color: pink;*/
+    
+}
+
+.col-lg-6.flip-circle{
+    
+/*    border: solid thin gray;
+    background-color: whitesmoke;*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /*box-shadow: 10px 10px 5px #888888;*/
+    /*border-radius: 1000px;*/
+}
