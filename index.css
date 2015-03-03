@@ -4,18 +4,92 @@ body{
     background-image: url("img/sky.jpg");
     
 }
-.row{
+.circle-row{
     
-    /*background-color: pink;*/
+    /*background-color: green;*/
+    z-index: 0;
     
 }
 
-.col-lg-6.flip-circle{
+/*circel*/
+
+.col-lg-12.flip-circle{
+
+    /*background-color: pink;*/
+    margin-top: 47px;
+    margin-bottom: 47px;
+
+}
+
+.container.circle { 
+  width: 900px;
+  height: 900px;
+  position: relative;
+  perspective: 800px;
+  
+}
+
+#card {
+  width: 100%;
+  height: 100%;
+  /*position: absolute;*/
+  transform-style: preserve-3d;
+  transition: transform 3s;
+  transform-origin: right center;
+  margin: 0 auto;
+  
+}
+
+#card figure {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+#card .front {
+  background: yellow;
+  border-radius: 50%;
+  /*background-image: url("img/pizza.jpg");*/
+}
+#card .back {
+  background: white;
+  border: solid thin black;
+  border-radius: 50%;
+  transform: rotateY( 180deg );
+}
+
+#card.flipped {
+  
+  transform: translateX( -100% ) rotateY( -180deg );
+}
+
+/*meny*/
+
+.meny-framsida{
     
-/*    border: solid thin gray;
-    background-color: whitesmoke;*/
-    margin-top: 50px;
-    margin-bottom: 50px;
-    /*box-shadow: 10px 10px 5px #888888;*/
-    /*border-radius: 1000px;*/
+ height: 850px;
+ background-color: pink;
+ border: solid thin gray;
+ z-index: 101; 
+ margin-top: -850px;
+ /*transform-style: preserve-3d;*/
+  transition: transform 3s;
+    
+}
+
+.flipped-meny {
+  
+  transform: translateX( -100% ) rotateY( -180deg );
+}
+
+.meny-framsida-2{
+    
+ height: 850px;
+ background-color: greenyellow;
+ border: solid thin gray;
+ z-index: 100; 
+ margin-top: -850px;
+    
 }
