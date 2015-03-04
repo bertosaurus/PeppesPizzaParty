@@ -7,7 +7,6 @@ body{
 .circle-row{
     
     /*background-color: green;*/
-    z-index: 0;
     
 }
 
@@ -18,18 +17,22 @@ body{
     /*background-color: pink;*/
     margin-top: 47px;
     margin-bottom: 47px;
+    z-index: 0;
 
 }
 
 .container.circle { 
+    
   width: 900px;
   height: 900px;
   position: relative;
   perspective: 800px;
   
+  
 }
 
 #card {
+    
   width: 100%;
   height: 100%;
   /*position: absolute;*/
@@ -41,23 +44,28 @@ body{
 }
 
 #card figure {
+    
   display: block;
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  
 }
 
 #card .front {
+    
   background: yellow;
   border-radius: 50%;
-  /*background-image: url("img/pizza.jpg");*/
+  
 }
 #card .back {
+    
   background: white;
   border: solid thin black;
   border-radius: 50%;
   transform: rotateY( 180deg );
+  
 }
 
 #card.flipped {
@@ -67,29 +75,154 @@ body{
 
 /*meny*/
 
-.meny-framsida{
-    
- height: 850px;
- background-color: pink;
- border: solid thin gray;
- z-index: 101; 
- margin-top: -850px;
- /*transform-style: preserve-3d;*/
-  transition: transform 3s;
-    
+/*meny framsida*/
+
+.meny-framsida-container{ 
+     
+  height: 850px;
+  position: relative;
+  perspective: 800px;
+  z-index: 102;
+  margin-top: -850px;
 }
 
-.flipped-meny {
+.meny-framsida {
+    
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 2s;
+  transform-origin: left;
+  margin: 0 auto;
   
-  transform: translateX( -100% ) rotateY( -180deg );
 }
 
-.meny-framsida-2{
+.meny-framsida figure {
     
- height: 850px;
- background-color: greenyellow;
- border: solid thin gray;
- z-index: 100; 
- margin-top: -850px;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  
+}
+
+.meny-framsida-front {
     
+  background: pink;
+  border: solid thin black;
+  
+}
+.meny-framsida-back {
+    
+  background: red;
+  border: solid thin black;
+  transform: rotateY( 180deg );
+  
+}
+
+.meny-framsida-flipped {
+  
+  transform: translateX( 0% ) rotateY( -180deg );
+  
+}
+
+/*meny förstasida*/
+
+.meny-forstasida-container{ 
+     
+  height: 850px;
+  position: relative;
+  perspective: 800px;
+  z-index: 101;
+  margin-top: -850px;
+}
+
+.meny-forstasida {
+    
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 2s;
+  transform-origin: left;
+  margin: 0 auto;
+  
+}
+
+.meny-forstasida figure {
+    
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.meny-forstasida-front {
+    
+  background: greenyellow;
+  border: solid thin black;
+  
+}
+.meny-forstasida-back {
+    
+  background: yellow;
+  border: solid thin black;
+  transform: rotateY( 180deg );
+  
+}
+
+.meny-flipped {
+  
+  transform: translateX( 0% ) rotateY( -180deg );
+}
+
+/*meny andrasidan*/
+
+.meny-andrasida-container{ 
+     
+  height: 850px;
+  position: relative;
+  perspective: 800px;
+  z-index: 100;
+  margin-top: -850px;
+}
+
+.meny-andrasida {
+    
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 2s;
+  transform-origin: left;
+  margin: 0 auto;
+  
+}
+
+.meny-andrasida figure {
+    
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.meny-andrasida-front {
+    
+  background: blue;
+  border: solid thin black;
+  
+}
+.meny-andrasida-back {
+    
+  background: blueviolet;
+  border: solid thin black;
+  transform: rotateY( 180deg );
+  
+}
+
+.meny-flipped {
+  
+  transform: translateX( 0% ) rotateY( -180deg );
 }
