@@ -9,35 +9,53 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="index.css" rel="stylesheet">
+        <link href="test.css" rel="stylesheet">
     </head>
-    <body>
+    <body class="body-1">
 
 
         <div class="container">
-
-            <!--          <div class="row meny-row">
-                          
-                          <div class="col-lg-6 col-lg-offset-3 meny"></div>
-                          
-                      </div>-->
+            
+            <!--meny-->
+            
             <div class="row circle-row">
-                <div class="col-lg-12 meny-framsida-div">
+                <div class="col-lg-12 meny-div">
                     <section class="col-lg-6 col-lg-offset-3 container meny-container">
                         <div class="meny-framsida">
                             <figure class="meny-framsida-front"><h1>front</h1></figure>
                             <figure class="meny-framsida-back"><h1>back</h1></figure>
                         </div>
                         <div class="meny-forstasida">
-                            <figure class="meny-forstasida-front"><h1>front</h1></figure>
-                            <figure class="meny-forstasida-back"><h1>back</h1></figure>
+                            <figure class="meny-forstasida-front">
+                                <h1>front</h1>
+                            
+<!--                                <div class="col-lg-4 peppe-flik"><h3>Peppe</h3></div>
+                                <div class="col-lg-4 pizza-flik"><a><h3>Pizza</h3></a></div>
+                                <div class="col-lg-4 party-flik"><h3>Party</h3></div>-->
+                                
+                            </figure>
+                            <figure class="meny-forstasida-back">
+                                <h1>back</h1> 
+                                
+<!--                                <div class="col-lg-4 tom-flik"></div>
+                                <div class="col-lg-4 tom-flik"></div>
+                                <div class="col-lg-4 peppe-flik-2"><h3>Peppe</h3></div>-->
+                                
+                            </figure>
                         </div>
                         <div class="meny-andrasida">
                             <figure class="meny-andrasida-front"><h1>front</h1></figure>
                             <figure class="meny-andrasida-back"><h1>back</h1></figure>
                         </div>
+                        <div class="meny-sistasida">
+                            <figure class="meny-sistasida-front"><h1>front</h1></figure>
+                            <figure class="meny-sistasida-back"><h1>back</h1></figure>
+                        </div>
                     </section>
                 </div>
 
+                <!--cirkel-->
+                
                 <div class="col-lg-12 flip-circle">                 
                     <section class="container circle">
                         <div id="card">
@@ -45,7 +63,6 @@
                             <figure class="back"></figure>
                         </div>
                     </section>
-                          <!--<a href="#"><img src="img/pizza.jpg" class="img-responsive" alt="Responsive image"></div></a>-->
                 </div>                         
             </div>          
         </div>

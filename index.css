@@ -1,9 +1,16 @@
 
-body{
+.body-1{
     
     background-image: url("img/sky.jpg");
     
 }
+
+.body-2{
+    
+    background-image: url("img/rödvit.jpg");
+    
+}
+
 .circle-row{
     
     /*background-color: green;*/
@@ -57,6 +64,7 @@ body{
     
   background: yellow;
   border-radius: 50%;
+  cursor: pointer;
   
 }
 #card .back {
@@ -85,23 +93,41 @@ body{
      
   height: 850px;
   position: relative;
-  perspective: 800px;
+  perspective: 2000px;
   z-index: 100;
-  /*margin-top: -850px;*/
+  margin-top: -851px;
+/*  margin-top: 50px;*/
 }
+
+.meny-flipped {
+  
+  transform: translateX( 0% ) rotateY( -180deg );
+}
+
 /*meny framsida*/
 
 .meny-framsida {
     
-/*  width: 100%;
-  height: 100%;*/
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
+/*  width: 400px;
+  height: 400px;*/
   transform-style: preserve-3d;
   transition: transform 2s;
   transform-origin: left;
   margin: 0 auto;
   z-index: 200;
+  position: absolute;
+  
+}
+
+.meny-framsida-2 {
+    
+  width: 100%;
+  height: 100%;
+/*  width: 400px;
+  height: 400px;*/
+  z-index: 100;
   position: absolute;
   
 }
@@ -119,20 +145,14 @@ body{
 .meny-framsida-front {
     
   background: pink;
-  /*border: solid thin black;*/
+  outline: solid thin black;
   
 }
 .meny-framsida-back {
     
   background: red;
-  /*border: solid thin black;*/
+  outline: solid thin black;
   transform: rotateY( 180deg );
-  
-}
-
-.meny-framsida-flipped {
-  
-  transform: translateX( 0% ) rotateY( -180deg );
   
 }
 
@@ -140,16 +160,31 @@ body{
 
 .meny-forstasida {
     
-/*  width: 100%;
-  height: 100%;*/
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
+/*  width: 400px;
+  height: 400px;*/
   transform-style: preserve-3d;
   transition: transform 2s;
   transform-origin: left;
   margin: 0 auto;
-  z-index: 103;
+  z-index: 199;
   position: absolute;
+}
+
+.meny-forstasida-2 {
+    
+  width: 100%;
+  height: 100%;
+/*  width: 400px;
+  height: 400px;*/
+  transform-style: preserve-3d;
+  transition: transform 2s;
+  transform-origin: left;
+  margin: 0 auto;
+  z-index: 201;
+  position: absolute;
+  
 }
 
 .meny-forstasida figure {
@@ -163,36 +198,45 @@ body{
 
 .meny-forstasida-front {
     
-  background: greenyellow;
-  /*border: solid thin black;*/
+  background: whitesmoke;
+  outline: solid thin black;
   
 }
 .meny-forstasida-back {
     
-  background: yellow;
-  /*border: solid thin black;*/
+  background: whitesmoke;
   transform: rotateY( 180deg );
+  outline: solid thin black;
   
-}
-
-.meny-flipped {
-  
-  transform: translateX( 0% ) rotateY( -180deg );
 }
 
 /*meny andrasidan*/
 
 .meny-andrasida {
     
-/*  width: 100%;
-  height: 100%;*/
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
+/*  width: 400px;
+  height: 400px;*/
   transform-style: preserve-3d;
   transition: transform 2s;
   transform-origin: left;
   margin: 0 auto;
-  z-index: 102;
+  z-index: 198;
+  position: absolute;
+}
+
+.meny-andrasida-2 {
+    
+  width: 100%;
+  height: 100%;
+/*  width: 400px;
+  height: 400px;*/
+  transform-style: preserve-3d;
+  transition: transform 2s;
+  transform-origin: left;
+  margin: 0 auto;
+  z-index: 202;
   position: absolute;
 }
 
@@ -208,18 +252,67 @@ body{
 .meny-andrasida-front {
     
   background: blue;
-  /*border: solid thin black;*/
+  outline: solid thin black;
   
 }
 .meny-andrasida-back {
     
   background: blueviolet;
-  /*border: solid thin black;*/
+  outline: solid thin black;
   transform: rotateY( 180deg );
   
 }
 
-.meny-flipped {
+/*meny sistasidan*/
+
+.meny-sistasida {
+    
+  width: 100%;
+  height: 100%;
+/*  width: 400px;
+  height: 400px;*/
+  transform-style: preserve-3d;
+  transition: transform 2s;
+  transform-origin: left;
+  margin: 0 auto;
+  z-index: 197;
+  position: absolute;
+}
+
+.meny-sistasida-2 {
+    
+  width: 100%;
+  height: 100%;
+/*  width: 400px;
+  height: 400px;*/
+  transform-style: preserve-3d;
+  transition: transform 2s;
+  transform-origin: left;
+  margin: 0 auto;
+  z-index: 201;
+  position: absolute;
   
-  transform: translateX( 0% ) rotateY( -180deg );
+}
+
+.meny-sistasida figure {
+    
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.meny-sistasida-front {
+    
+  background: gold;
+  outline: solid thin black;
+  
+}
+.meny-sistasida-back {
+    
+  background: violet;
+  outline: solid thin black;
+  transform: rotateY( 180deg );
+  
 }
