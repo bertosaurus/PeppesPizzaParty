@@ -22,25 +22,15 @@
                       </div>-->
             <div class="row circle-row">
                 <div class="col-lg-12 meny-framsida-div">
-                    <section class="col-lg-6 col-lg-offset-3 container meny-framsida-container">
+                    <section class="col-lg-6 col-lg-offset-3 container meny-container">
                         <div class="meny-framsida">
                             <figure class="meny-framsida-front"><h1>front</h1></figure>
                             <figure class="meny-framsida-back"><h1>back</h1></figure>
                         </div>
-                    </section>
-                </div>
-                
-                <div class="col-lg-12 meny-forstasida-div">
-                    <section class="col-lg-6 col-lg-offset-3 container meny-forstasida-container">
                         <div class="meny-forstasida">
                             <figure class="meny-forstasida-front"><h1>front</h1></figure>
                             <figure class="meny-forstasida-back"><h1>back</h1></figure>
                         </div>
-                    </section>
-                </div>
-                
-                <div class="col-lg-12 meny-andrasida-div">
-                    <section class="col-lg-6 col-lg-offset-3 container meny-andrasida-container">
                         <div class="meny-andrasida">
                             <figure class="meny-andrasida-front"><h1>front</h1></figure>
                             <figure class="meny-andrasida-back"><h1>back</h1></figure>

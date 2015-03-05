@@ -15,33 +15,30 @@ $(document).ready(function() {
     
     $(".meny-framsida-front").click(function() {
         
-        $(".meny-framsida-container").animate({left: 275}, 1000);
+//        $(".meny-container").animate({left: 275}, 1000);
         $(".meny-framsida").toggleClass("meny-flipped");
-        $(".meny-forstasida-container").animate({left: 275}, 1000);
-        $(".meny-andrasida-container").animate({left: 275}, 1000);
+        $(".meny-framsida").css({'z-index': '100' });
         
     });
     $(".meny-framsida-back").click(function() {
         
-        $(".meny-framsida-container").animate({left: 0}, 1000);
-        $(".meny-framsida").toggleClass("meny-flipped").delay(1000).animate({left: 300}, 1000);
-        $(".meny-forstasida-container").animate({left: 0}, 1000);
-        $(".meny-andrasida-container").animate({left: 0}, 1000);
+//        $(".meny-container").animate({left: 0}, 1000);
+        $(".meny-framsida").toggleClass("meny-flipped");
         
     });
     
 //    förstasida
     
     $(".meny-forstasida-front").click(function() {
-        
-        $(".meny-forstasida-container").animate({left: 275}, 1000);
+        console.log("klick körs. Knapp gömd.");
+//        $(".meny-forstasida-container").animate({left: 275}, 1000);
         $(".meny-forstasida").toggleClass("meny-flipped");
 //        $(".meny-andrasida-container").animate({left: 275}, 1000);
         
     });
     $(".meny-forstasida-back").click(function() {
         
-        $(".meny-forstasida-container").animate({left: 0}, 1000);
+//        $(".meny-forstasida-container").animate({left: 0}, 1000);
         $(".meny-forstasida").toggleClass("meny-flipped").delay(1000).animate({left: 300}, 1000);
 //        $(".meny-andrasida-container").animate({left: 0}, 1000);
         
