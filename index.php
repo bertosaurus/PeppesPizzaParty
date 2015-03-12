@@ -15,47 +15,43 @@
 
 
         <div class="container">
-            
+
             <!--meny-->
-            
+
             <div class="row circle-row">
                 <div class="col-lg-12 meny-div">
-                    <section class="col-lg-6 col-lg-offset-3 container meny-container">
+                    <section class="col-lg-6 col-lg-offset-3 container meny-container">                       
+
                         <div class="meny-framsida">
-                            <figure class="meny-framsida-front"><h1>front</h1></figure>
-                            <figure class="meny-framsida-back"><h1>back</h1></figure>
+                            <figure class="meny-framsida-front"><h1>front Framsida</h1></figure>
+                            <figure class="meny-framsida-back"><h1>back Framsida</h1></figure>
                         </div>
                         <div class="meny-forstasida">
                             <figure class="meny-forstasida-front">
-                                <h1>front</h1>
+                                <!--<h1>front Förstasida</h1>-->
                             
-<!--                                <div class="col-lg-4 peppe-flik"><h3>Peppe</h3></div>
-                                <div class="col-lg-4 pizza-flik"><a><h3>Pizza</h3></a></div>
-                                <div class="col-lg-4 party-flik"><h3>Party</h3></div>-->
+                                <?php
                                 
+                                include 'test.html';
+                                
+                                ?>
+                            
                             </figure>
-                            <figure class="meny-forstasida-back">
-                                <h1>back</h1> 
-                                
-<!--                                <div class="col-lg-4 tom-flik"></div>
-                                <div class="col-lg-4 tom-flik"></div>
-                                <div class="col-lg-4 peppe-flik-2"><h3>Peppe</h3></div>-->
-                                
-                            </figure>
+                            <figure class="meny-forstasida-back"><h1>back Förstasida</h1> </figure>
                         </div>
                         <div class="meny-andrasida">
-                            <figure class="meny-andrasida-front"><h1>front</h1></figure>
-                            <figure class="meny-andrasida-back"><h1>back</h1></figure>
+                            <figure class="meny-andrasida-front"><h1>front Andrasida</h1></figure>
+                            <figure class="meny-andrasida-back"><h1>back Andrasidan</h1></figure>
                         </div>
                         <div class="meny-sistasida">
-                            <figure class="meny-sistasida-front"><h1>front</h1></figure>
-                            <figure class="meny-sistasida-back"><h1>back</h1></figure>
+                            <figure class="meny-sistasida-front"><h1>front Sistasida</h1></figure>
+                            <figure class="meny-sistasida-back"><h1>back Sistasida</h1></figure>
                         </div>
                     </section>
                 </div>
 
                 <!--cirkel-->
-                
+
                 <div class="col-lg-12 flip-circle">                 
                     <section class="container circle">
                         <div id="card">
@@ -64,7 +60,7 @@
                         </div>
                     </section>
                 </div>                         
-            </div>          
+            </div>   
         </div>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

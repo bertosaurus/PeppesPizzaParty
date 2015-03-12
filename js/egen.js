@@ -6,7 +6,7 @@ $(document).ready(function() {
         $("#card").toggleClass("flipped")
         console.log("klick körs. Knapp gömd.");
         
-        $(".body-1").toggleClass("body-2");
+//        $(".body-1").toggleClass("body-2");
 
         $(this).parent().parent().parent().parent().children(".meny-div")
                 .delay(2500).animate({top: 920}, 3000)

@@ -7,7 +7,7 @@
 
 .body-2{
     
-    background-image: url("img/rödvit.jpg");
+/*    background-image: url("img/rödvit.jpg");*/
     
 }
 
@@ -95,8 +95,8 @@
   position: relative;
   perspective: 2000px;
   z-index: 100;
-  margin-top: -851px;
-/*  margin-top: 50px;*/
+  /*margin-top: -851px;*/
+  margin-top: 50px;
 }
 
 .meny-flipped {
@@ -144,14 +144,14 @@
 
 .meny-framsida-front {
     
-  background: pink;
+  background: darkred;
   outline: solid thin black;
   
 }
 .meny-framsida-back {
     
-  background: red;
-  outline: solid thin black;
+  background: whitesmoke;
+  outline: solid thin lightgrey;
   transform: rotateY( 180deg );
   
 }
@@ -198,15 +198,15 @@
 
 .meny-forstasida-front {
     
-  background: whitesmoke;
-  outline: solid thin black;
+  /*background: red;*/
+  /*outline: solid thin lightgrey;*/
   
 }
 .meny-forstasida-back {
     
   background: whitesmoke;
   transform: rotateY( 180deg );
-  outline: solid thin black;
+  outline: solid thin lightgrey;
   
 }
 
@@ -251,14 +251,14 @@
 
 .meny-andrasida-front {
     
-  background: blue;
-  outline: solid thin black;
+  background: whitesmoke;
+  outline: solid thin lightgrey;
   
 }
 .meny-andrasida-back {
     
-  background: blueviolet;
-  outline: solid thin black;
+  background: whitesmoke;
+  outline: solid thin lightgrey;
   transform: rotateY( 180deg );
   
 }
@@ -305,14 +305,14 @@
 
 .meny-sistasida-front {
     
-  background: gold;
-  outline: solid thin black;
+  background: whitesmoke;
+  outline: solid thin lightgrey;
   
 }
 .meny-sistasida-back {
     
-  background: violet;
-  outline: solid thin black;
+  background: whitesmoke;
+  outline: solid thin lightgrey;
   transform: rotateY( 180deg );
   
 }
