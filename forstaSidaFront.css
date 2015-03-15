@@ -1,0 +1,48 @@
+
+.forstaSidaFront-row{
+    
+    /*margin-top: 50px;*/
+    
+}
+
+.peppeFlik{
+    
+    height: 50px;
+    background-color: whitesmoke;
+    border-left: solid thin black;
+    border-top: solid thin black;
+    border-right: solid thin black; 
+}
+
+.peppeFlik h3{
+    
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    padding: 10px;
+    
+}
+
+.pizzaFlik{
+    
+    height: 50px;
+    /*background-color: yellow;*/
+    border-bottom: solid thin black;
+    
+}
+
+.partyFlik{
+    
+    height: 50px;
+    /*background-color: blue;*/
+    border-bottom: solid thin black;
+}
+
+.col-lg-12{
+    
+    height: 300px;
+    background-color: whitesmoke;
+    border-left: solid thin black;
+    border-right: solid thin black;
+    border-bottom: solid thin black;
+}

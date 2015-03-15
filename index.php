@@ -9,6 +9,7 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="index.css" rel="stylesheet">
+        <!--<link href="forstaSidaFront.css" rel="stylesheet">-->
         <link href="test.css" rel="stylesheet">
     </head>
     <body class="body-1">
@@ -29,13 +30,7 @@
                         <div class="meny-forstasida">
                             <figure class="meny-forstasida-front">
                                 <!--<h1>front Förstasida</h1>-->
-                            
-                                <?php
-                                
-                                include 'test.html';
-                                
-                                ?>
-                            
+                                <?php // include 'forstaSidaFront.php'; ?>
                             </figure>
                             <figure class="meny-forstasida-back"><h1>back Förstasida</h1> </figure>
                         </div>
