@@ -33,7 +33,7 @@ $(document).ready(function() {
     
 //    förstasida
     
-    $(".meny-forstasida-front").click(function() {
+    $(".forstaSidaFrontWrapper a").click(function() {
         
         $(".meny-forstasida").toggleClass("meny-flipped").delay(1000).queue(function(next){
             $(".meny-forstasida").toggleClass("meny-forstasida-2");
@@ -41,7 +41,7 @@ $(document).ready(function() {
     });        
     });
     
-    $(".meny-forstasida-back").click(function() {
+    $(".forstaSidaBackWrapper a").click(function() {
         
         $(".meny-forstasida").toggleClass("meny-flipped");
         $(".meny-forstasida").toggleClass("meny-forstasida-2");
@@ -50,14 +50,14 @@ $(document).ready(function() {
     
 //    andrasida
     
-    $(".meny-andrasida-front").click(function() {
+    $(".andraSidaFrontWrapper a").click(function() {
         
         $(".meny-andrasida").toggleClass("meny-flipped");
          $(".meny-andrasida").toggleClass("meny-andrasida-2");
     });        
     });
     
-    $(".meny-andrasida-back").click(function() {
+    $(".andraSidaBackWrapper a").click(function() {
         
         $(".meny-andrasida").toggleClass("meny-flipped").delay(1000).queue(function(next){
             $(".meny-andrasida").toggleClass("meny-andrasida-2");

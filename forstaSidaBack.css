@@ -1,23 +1,23 @@
 
-.forstaSidaFrontWrapper{
+.forstaSidaBackWrapper{
     
     margin: 0px;
     padding: 0px;
     
 }
 
-.peppeFlikFront{
+.peppeFlikBack{
     
     height: 50px;
     background-color: whitesmoke;
     border-left: solid thin black;
     border-top: solid thin black;
-    border-right: solid thin black; 
-    width: 33%;
+    border-right: solid thin black;
+    width: 34%;
     float: left;
 }
 
-.peppeFlikFront h3{
+.peppeFlikBack h3{
     
     text-align: center;
     font-size: 30px;
@@ -26,7 +26,7 @@
     
 }
 
-.pizzaFlikFront{
+.pizzaFlikBack{
     
     height: 50px;
     /*background-color: yellow;*/
@@ -36,16 +36,16 @@
     
 }
 
-.partyFlikFront{
+.partyFlikBack{
     
     height: 50px;
     /*background-color: blue;*/
     border-bottom: solid thin black;
-    width: 34%;
+    width: 33%;
     float: left;
 }
 
-.peppeTextFront{
+.peppeTextBack{
     
     height: 300px;
     background-color: whitesmoke;

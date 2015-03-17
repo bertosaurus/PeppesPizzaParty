@@ -151,7 +151,7 @@
 .meny-framsida-back {
     
   background: whitesmoke;
-  outline: solid thin lightgrey;
+  /*outline: solid thin black;*/
   transform: rotateY( 180deg );
   
 }
@@ -198,15 +198,14 @@
 
 .meny-forstasida-front {
     
-  background: red;
-  /*outline: solid thin lightgrey;*/
+  /*background: red;*/
   
 }
 .meny-forstasida-back {
     
-  background: whitesmoke;
+  /*background: whitesmoke;*/
   transform: rotateY( 180deg );
-  outline: solid thin lightgrey;
+  /*outline: solid thin lightgrey;*/
   
 }
 
@@ -251,14 +250,14 @@
 
 .meny-andrasida-front {
     
-  background: whitesmoke;
-  outline: solid thin lightgrey;
+  /*background: whitesmoke;*/
+  /*outline: solid thin lightgrey;*/
   
 }
 .meny-andrasida-back {
     
-  background: whitesmoke;
-  outline: solid thin lightgrey;
+  /*background: whitesmoke;*/
+  /*outline: solid thin lightgrey;*/
   transform: rotateY( 180deg );
   
 }
