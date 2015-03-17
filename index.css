@@ -17,13 +17,25 @@
     
 }
 
+a{
+    
+    color: black;
+    
+}
+
+a:hover{
+    
+    color: black;
+    
+}
+
 /*circel*/
 
 .col-lg-12.flip-circle{
 
     /*background-color: pink;*/
-    margin-top: 47px;
-    margin-bottom: 47px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     z-index: 0;
 
 }
@@ -95,8 +107,8 @@
   position: relative;
   perspective: 2000px;
   z-index: 100;
-  /*margin-top: -851px;*/
-  margin-top: 50px;
+  margin-top: -851px;
+  /*margin-top: 50px;*/
 }
 
 .meny-flipped {
@@ -145,12 +157,12 @@
 .meny-framsida-front {
     
   background: darkred;
-  outline: solid thin black;
+  /*outline: solid thin black;*/
   
 }
 .meny-framsida-back {
     
-  background: whitesmoke;
+  background: darkred;
   /*outline: solid thin black;*/
   transform: rotateY( 180deg );
   
@@ -305,13 +317,13 @@
 .meny-sistasida-front {
     
   background: whitesmoke;
-  outline: solid thin lightgrey;
+  outline: solid thin black;
   
 }
 .meny-sistasida-back {
     
-  background: whitesmoke;
-  outline: solid thin lightgrey;
+  /*background: whitesmoke;*/
+  /*outline: solid thin lightgrey;*/
   transform: rotateY( 180deg );
   
 }

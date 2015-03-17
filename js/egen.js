@@ -9,7 +9,7 @@ $(document).ready(function() {
 //        $(".body-1").toggleClass("body-2");
 
         $(this).parent().parent().parent().parent().children(".meny-div")
-                .delay(2500).animate({top: 920}, 3000)
+                .delay(2500).animate({top: 900}, 3000)
     });
     
 //    framsida
@@ -64,3 +64,5 @@ $(document).ready(function() {
          next();      
     });   
 });
+
+//test

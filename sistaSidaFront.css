@@ -9,7 +9,8 @@
 .sistaSidaPeppeFlikFront{
 
     height: 50px;
-    border-bottom: solid thin black;
+    /*border-bottom: solid thin black;*/
+    /*border-top: solid thin black;*/
     width: 33%;
     float: left;
 
@@ -18,7 +19,8 @@
 .sistaSidaPizzaFlikFront{   
 
     height: 50px;
-    border-bottom: solid thin black;
+    /*border-bottom: solid thin black;*/
+    /*border-top: solid thin black;*/
     width: 33%;
     float: left;
 
@@ -30,9 +32,9 @@
 
     height: 50px;
     background-color: whitesmoke;
-    border-left: solid thin black;
-    border-top: solid thin black;
-    border-right: solid thin black; 
+    /*border-left: solid thin black;*/
+    /*border-top: solid thin black;*/
+    /*border-right: solid thin black;*/ 
     width: 34%;
     float: left;
 }
@@ -48,11 +50,11 @@
 
 .sistaSidaPeppeTextFront{
 
-    height: 300px;
+    height: 800px;
     background-color: whitesmoke;
-    border-left: solid thin black;
-    border-right: solid thin black;
-    border-bottom: solid thin black;
+    /*border-left: solid thin black;*/
+    /*border-right: solid thin black;*/
+    /*border-bottom: solid thin black;*/
     width: 100%;
     float: left;
 }

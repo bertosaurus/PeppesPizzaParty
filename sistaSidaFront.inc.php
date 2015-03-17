@@ -8,6 +8,6 @@
               
               <div class="sistaSidaPartyFlikFront"><h3>Party</h3></div>
               
-              <div class="peppeTextFront"></div>
+              <div class="sistaSidaPeppeTextFront"></div>
           
       </div>

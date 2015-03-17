@@ -27,7 +27,7 @@
                     <section class="col-lg-6 col-lg-offset-3 container meny-container">                       
 
                         <div class="meny-framsida">
-                            <figure class="meny-framsida-front"><h1>front Framsida</h1></figure>
+                            <figure class="meny-framsida-front"><h1></h1></figure>
                             <figure class="meny-framsida-back"></figure>
                         </div>
                         <div class="meny-forstasida">
@@ -40,7 +40,7 @@
                         </div>
                         <div class="meny-sistasida">
                             <figure class="meny-sistasida-front"> <?php include 'sistaSidaFront.inc.php'; ?> </figure>
-                            <figure class="meny-sistasida-back"><h1>back Sistasida</h1></figure>
+                            <figure class="meny-sistasida-back"></figure>
                         </div>
                     </section>
                 </div>
