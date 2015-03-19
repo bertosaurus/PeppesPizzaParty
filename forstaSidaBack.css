@@ -6,18 +6,18 @@
     
 }
 
-.peppeFlikBack{
+.forstaSidapeppeFlikBack{
     
     height: 50px;
     background-color: whitesmoke;
-    border-left: solid thin black;
-    border-top: solid thin black;
-    border-right: solid thin black;
+    border-left: solid thin lightgray;
+    border-top: solid thin lightgray;
+    border-right: solid thin lightgray;
     width: 34%;
     float: left;
 }
 
-.peppeFlikBack h3{
+.forstaSidapeppeFlikBack h3{
     
     text-align: center;
     font-size: 30px;
@@ -26,32 +26,30 @@
     
 }
 
-.pizzaFlikBack{
+.forstaSidapizzaFlikBack{
     
     height: 50px;
-    /*background-color: yellow;*/
-    border-bottom: solid thin black;
+    border-bottom: solid thin lightgray;
     width: 33%;
     float: left;
     
 }
 
-.partyFlikBack{
+.forstaSidapartyFlikBack{
     
     height: 50px;
-    /*background-color: blue;*/
-    border-bottom: solid thin black;
+    border-bottom: solid thin lightgray;
     width: 33%;
     float: left;
 }
 
-.peppeTextBack{
+.forstaSidapeppeTextBack{
     
     height: 800px;
     background-color: whitesmoke;
-    border-left: solid thin black;
-    border-right: solid thin black;
-    border-bottom: solid thin black;
+    border-left: solid thin lightgray;
+    border-right: solid thin lightgray;
+    border-bottom: solid thin lightgray;
     width: 100%;
     float: left;
 }

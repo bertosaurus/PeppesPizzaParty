@@ -14,6 +14,7 @@
         <link href="andraSidaFront.css" rel="stylesheet">
         <link href="andraSidaBack.css" rel="stylesheet">
         <link href="sistaSidaFront.css" rel="stylesheet">
+        <link href="footer.css" rel="stylesheet">
     </head>
     <body class="body-1">
 
@@ -27,7 +28,7 @@
                     <section class="col-lg-6 col-lg-offset-3 container meny-container">                       
 
                         <div class="meny-framsida">
-                            <figure class="meny-framsida-front"><h1></h1></figure>
+                            <figure class="meny-framsida-front"><h1>Peppes Pizza Party</h1></figure>
                             <figure class="meny-framsida-back"></figure>
                         </div>
                         <div class="meny-forstasida">

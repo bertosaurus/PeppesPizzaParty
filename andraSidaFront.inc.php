@@ -10,6 +10,6 @@
               
               <a href="#"><div class="andraSidaPartyFlikFront"></div></a>
               
-              <div class="peppeTextFront"></div>
+              <div class="andraSidaPizzaTextFront"></div>
           
       </div>

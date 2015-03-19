@@ -33,7 +33,8 @@ $(document).ready(function() {
     
 //    förstasida
     
-    $(".forstaSidaFrontWrapper a").click(function() {
+//    bytta till pizza sida  
+    $("a .forstaSidapizzaFlikFront").click(function() {
         
         $(".meny-forstasida").toggleClass("meny-flipped").delay(1000).queue(function(next){
             $(".meny-forstasida").toggleClass("meny-forstasida-2");
@@ -41,23 +42,25 @@ $(document).ready(function() {
     });        
     });
     
+//    bytta tillbaka till peppe sida  
     $(".forstaSidaBackWrapper a").click(function() {
         
         $(".meny-forstasida").toggleClass("meny-flipped");
-        $(".meny-forstasida").toggleClass("meny-forstasida-2");
-        
+        $(".meny-forstasida").toggleClass("meny-forstasida-2");       
     });
     
 //    andrasida
     
-    $(".andraSidaFrontWrapper a").click(function() {
+//    bytta till party sida
+    $("a .andraSidaPartyFlikFront").click(function() {
         
         $(".meny-andrasida").toggleClass("meny-flipped");
          $(".meny-andrasida").toggleClass("meny-andrasida-2");
     });        
     });
     
-    $(".andraSidaBackWrapper a").click(function() {
+//    bytta tillbaka till pizza sida
+    $("a .andraSidaPizzaFlikBack").click(function() {
         
         $(".meny-andrasida").toggleClass("meny-flipped").delay(1000).queue(function(next){
             $(".meny-andrasida").toggleClass("meny-andrasida-2");
@@ -65,4 +68,25 @@ $(document).ready(function() {
     });   
 });
 
-//test
+//bytta från pizza sida till party sida
+$("a .forstaSidapartyFlikFront").click(function() {
+        
+    $(".meny-forstasida").toggleClass("meny-flipped").delay(500).queue(function(next){
+            $(".meny-forstasida").toggleClass("meny-forstasida-2");
+         next();
+        $(".meny-andrasida").toggleClass("meny-flipped");
+         $(".meny-andrasida").toggleClass("meny-andrasida-2");
+    });
+    
+});
+
+//bytta från party sida till peppe sida
+$("a .andraSidaPartyFlikBack").click(function() {
+        
+        $(".meny-andrasida").toggleClass("meny-flipped").delay(500).queue(function(next){
+            $(".meny-andrasida").toggleClass("meny-andrasida-2");
+         next();
+         $(".meny-forstasida").toggleClass("meny-flipped");
+        $(".meny-forstasida").toggleClass("meny-forstasida-2");
+    });   
+});

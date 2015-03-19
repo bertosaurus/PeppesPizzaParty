@@ -1,14 +1,12 @@
      
 <div class="forstaSidaBackWrapper">
 
-    <div class="col-lg-4 partyFlikBack"></div>
+    <div class="forstaSidapartyFlikBack"></div>
 
-    <div class="pizzaFlikBack"></div>
+    <div class="forstaSidapizzaFlikBack"></div>
 
-    <a href="#"><div class="col-lg-4 peppeFlikBack">
-            <h3>Peppe</h3>
-        </div></a>
+    <a href="#"><div class="forstaSidapeppeFlikBack"><h3>Peppe</h3></div></a>
 
-    <div class="col-lg-12 peppeTextBack"></div>
+    <div class="forstaSidapeppeTextBack"></div>
 
 </div>

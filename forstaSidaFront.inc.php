@@ -2,14 +2,12 @@
 <div class="forstaSidaFrontWrapper">
 
 
-    <div class="peppeFlikFront">
-        <h3>Peppe</h3>
-    </div>
+    <div class="forstaSidapeppeFlikFront"><h3>Peppe</h3></div>
 
-    <a href="#"><div class="pizzaFlikFront"></div></a>
+    <a href="#"><div class="forstaSidapizzaFlikFront"></div></a>
 
-    <div class="partyFlikFront"></div>
+    <a href="#"><div class="forstaSidapartyFlikFront"></div></a>
 
-    <div class="peppeTextFront"></div>
+    <div class="forstaSidapeppeTextFront"> <?php include 'footer.inc.php'; ?> </div>
 
 </div>

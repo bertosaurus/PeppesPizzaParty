@@ -107,8 +107,8 @@ a:hover{
   position: relative;
   perspective: 2000px;
   z-index: 100;
-  margin-top: -851px;
-  /*margin-top: 50px;*/
+  /*margin-top: -851px;*/
+  margin-top: 50px;
 }
 
 .meny-flipped {
@@ -160,6 +160,14 @@ a:hover{
   /*outline: solid thin black;*/
   
 }
+
+.meny-framsida-front h1{
+    
+    text-align: center;
+    color: white;
+  
+}
+
 .meny-framsida-back {
     
   background: darkred;
@@ -316,8 +324,8 @@ a:hover{
 
 .meny-sistasida-front {
     
-  background: whitesmoke;
-  outline: solid thin black;
+  background: darkred;
+  /*outline: solid thin lightgray;*/
   
 }
 .meny-sistasida-back {
@@ -327,3 +335,18 @@ a:hover{
   transform: rotateY( 180deg );
   
 }
+
+/*test*/
+
+/*.ruta{
+    
+    height: 800px;
+    width: 545px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    background-color: whitesmoke;
+    border-bottom: solid thin black;
+    border-top: solid thin black;
+    border-left: solid thin black;
+}*/
