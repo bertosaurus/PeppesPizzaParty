@@ -1,0 +1,115 @@
+
+/*sista sida front*/
+
+.sistaSidaFrontWrapper{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.sistaSidaPeppeFlikFront{
+
+    height: 50px;
+    border-bottom: solid thin lightgray;
+    width: 33%;
+    float: left;
+
+}
+
+.sistaSidaPizzaFlikFront{   
+
+    height: 50px;
+    border-bottom: solid thin lightgray;
+    width: 33%;
+    float: left;
+
+}
+
+.sistaSidaPartyFlikFront{
+
+
+
+    height: 50px;
+    background-color: whitesmoke;
+    border-left: solid thin lightgray;
+    width: 34%;
+    float: left;
+}
+
+.sistaSidaPartyFlikFront h3{
+
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    padding: 10px;
+
+}
+
+.sistaSidaPeppeTextFront{
+
+    height: 800px;
+    background-color: whitesmoke;
+    width: 100%;
+    float: left;
+}
+
+/*sista sida back*/
+
+.sistaSidaBackWrapper{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.sistaSidaPeppeFlikBack{
+
+    height: 50px;
+    border-bottom: solid thin lightgray;
+    width: 33%;
+    float: left;
+
+}
+
+.sistaSidaPizzaFlikBack{   
+
+    height: 50px;
+    border-bottom: solid thin lightgray;
+    width: 33%;
+    float: left;
+
+}
+
+.sistaSidaPartyFlikBack{
+
+
+
+    height: 50px;
+    background-color: whitesmoke;
+    border-left: solid thin lightgray;
+    border-right: solid thin lightgray;
+    border-top: solid thin lightgray;
+    width: 34%;
+    float: left;
+}
+
+.sistaSidaPartyFlikBack h3{
+
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    padding: 10px;
+
+}
+
+.sistaSidaPeppeTextBack{
+
+    height: 800px;
+    background-color: whitesmoke;
+    border-left: solid thin lightgray;
+    border-bottom: solid thin lightgray;
+    width: 100%;
+    float: left;
+}
+

@@ -8,6 +8,6 @@
 
     <a href="#"><div class="forstaSidapartyFlikFront"></div></a>
 
-    <div class="forstaSidapeppeTextFront"> <?php include 'footer.inc.php'; ?> </div>
+    <div class="forstaSidapeppeTextFront"></div>
 
 </div>

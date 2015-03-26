@@ -68,6 +68,7 @@ $(document).ready(function() {
     });   
 });
 
+
 //bytta från pizza sida till party sida
 $("a .forstaSidapartyFlikFront").click(function() {
         
@@ -90,3 +91,48 @@ $("a .andraSidaPartyFlikBack").click(function() {
         $(".meny-forstasida").toggleClass("meny-forstasida-2");
     });   
 });
+
+//bytta från slut till partysida
+
+$("a .sistaSidaPartyFlikBack").click(function() {
+        
+        $(".meny-sistasida").toggleClass("meny-flipped").delay(500).queue(function(next){
+            $(".meny-sistasida").toggleClass("meny-sistasida-2");  
+});
+});
+
+//bytta från slut till pizzasida
+
+$("a .sistaSidaPizzaFlikBack").click(function() {
+        
+        $(".meny-sistasida").toggleClass("meny-flipped").delay(500).queue(function(next){
+            $(".meny-sistasida").toggleClass("meny-sistasida-2");
+         next();
+         $(".meny-andrasida").toggleClass("meny-flipped");
+        $(".meny-andrasida").toggleClass("meny-andrasida-2");
+    });   
+});
+
+//bytta från slut till peppesida
+
+$("a .sistaSidaPeppeFlikBack").click(function() {
+        
+    $(".meny-sistasida").toggleClass("meny-flipped").delay(500).queue(function(next){
+            $(".meny-sistasida").toggleClass("meny-sistasida-2");
+         next();
+        $(".meny-andrasida").toggleClass("meny-flipped").delay(500).queue(function(next){
+            $(".meny-andrasida").toggleClass("meny-andrasida-2");
+         
+         $(".meny-forstasida").toggleClass("meny-flipped");
+        $(".meny-forstasida").toggleClass("meny-forstasida-2");
+    });
+    });
+});
+
+//footer click
+
+//$(".footerWrapper a").click(function() {
+//        
+//        $(".meny-sistasida").toggleClass("meny-flipped");
+//         $(".meny-sistasida").toggleClass("meny-sistasida-2");
+//    });        

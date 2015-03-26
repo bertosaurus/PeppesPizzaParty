@@ -308,7 +308,7 @@ a:hover{
   transition: transform 2s;
   transform-origin: left;
   margin: 0 auto;
-  z-index: 201;
+  z-index: 203;
   position: absolute;
   
 }
@@ -324,29 +324,65 @@ a:hover{
 
 .meny-sistasida-front {
     
+    
+  
+}
+.meny-sistasida-back {
+    
+  transform: rotateY( 180deg );
+  
+}
+
+/*meny backsida*/
+
+.meny-backsida {
+    
+  width: 100%;
+  height: 100%;
+/*  width: 400px;
+  height: 400px;*/
+  transform-style: preserve-3d;
+  transition: transform 2s;
+  transform-origin: left;
+  margin: 0 auto;
+  z-index: 196;
+  position: absolute;
+}
+
+.meny-backsida-2 {
+    
+  width: 100%;
+  height: 100%;
+/*  width: 400px;
+  height: 400px;*/
+  transform-style: preserve-3d;
+  transition: transform 2s;
+  transform-origin: left;
+  margin: 0 auto;
+  z-index: 201;
+  position: absolute;
+  
+}
+
+.meny-backsida figure {
+    
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.meny-backsida-front {
+    
   background: darkred;
   /*outline: solid thin lightgray;*/
   
 }
-.meny-sistasida-back {
+.meny-backsida-back {
     
   /*background: whitesmoke;*/
   /*outline: solid thin lightgrey;*/
   transform: rotateY( 180deg );
   
 }
-
-/*test*/
-
-/*.ruta{
-    
-    height: 800px;
-    width: 545px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 25px;
-    background-color: whitesmoke;
-    border-bottom: solid thin black;
-    border-top: solid thin black;
-    border-left: solid thin black;
-}*/

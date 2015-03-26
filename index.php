@@ -9,11 +9,9 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="index.css" rel="stylesheet">
-        <link href="forstaSidaFront.css" rel="stylesheet">
-        <link href="forstaSidaBack.css" rel="stylesheet">
-        <link href="andraSidaFront.css" rel="stylesheet">
-        <link href="andraSidaBack.css" rel="stylesheet">
-        <link href="sistaSidaFront.css" rel="stylesheet">
+        <link href="forstaSida.css" rel="stylesheet">
+        <link href="andraSida.css" rel="stylesheet">
+        <link href="sistaSida.css" rel="stylesheet">
         <link href="footer.css" rel="stylesheet">
     </head>
     <body class="body-1">
@@ -41,7 +39,11 @@
                         </div>
                         <div class="meny-sistasida">
                             <figure class="meny-sistasida-front"> <?php include 'sistaSidaFront.inc.php'; ?> </figure>
-                            <figure class="meny-sistasida-back"></figure>
+                            <figure class="meny-sistasida-back"> <?php include 'sistaSidaBack.inc.php'; ?> </figure>
+                        </div>
+                        <div class="meny-backsida">
+                            <figure class="meny-backsida-front"></figure>
+                            <figure class="meny-backsida-back"></figure>
                         </div>
                     </section>
                 </div>
