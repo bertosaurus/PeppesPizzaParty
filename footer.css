@@ -2,9 +2,18 @@
 .footerWrapper{
     
     height: 50px;
-    width: 500px;
     background-color: pink;
     margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     
+    /*flex: 0 0 50px;*/
+    /*align-self: flex-end;*/
+    width: 548px;
+    
+}
+.footerSpacer {
+    flex:1;
 }
 

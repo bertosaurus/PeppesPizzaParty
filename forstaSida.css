@@ -54,6 +54,9 @@
     border-bottom: solid thin lightgray;
     width: 100%;
     float: left;
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 /*Första sida back*/
@@ -111,4 +114,31 @@
     border-bottom: solid thin lightgray;
     width: 100%;
     float: left;
+}
+
+/*förstasida peppe del*/
+
+.peppe-header{
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    
+}
+
+.peppe-header-text h1{
+    
+  margin-left: 20px;
+    
+}
+
+.peppe-section{
+    
+    background-color: palevioletred;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 }

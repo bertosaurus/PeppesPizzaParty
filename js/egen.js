@@ -84,7 +84,7 @@ $("a .forstaSidapartyFlikFront").click(function() {
 //bytta från party sida till peppe sida
 $("a .andraSidaPartyFlikBack").click(function() {
         
-        $(".meny-andrasida").toggleClass("meny-flipped").delay(500).queue(function(next){
+        $(".meny-andrasida").toggleClass("meny-flipped").delay(700).queue(function(next){
             $(".meny-andrasida").toggleClass("meny-andrasida-2");
          next();
          $(".meny-forstasida").toggleClass("meny-flipped");
@@ -105,7 +105,7 @@ $("a .sistaSidaPartyFlikBack").click(function() {
 
 $("a .sistaSidaPizzaFlikBack").click(function() {
         
-        $(".meny-sistasida").toggleClass("meny-flipped").delay(500).queue(function(next){
+        $(".meny-sistasida").toggleClass("meny-flipped").delay(600).queue(function(next){
             $(".meny-sistasida").toggleClass("meny-sistasida-2");
          next();
          $(".meny-andrasida").toggleClass("meny-flipped");
@@ -117,10 +117,10 @@ $("a .sistaSidaPizzaFlikBack").click(function() {
 
 $("a .sistaSidaPeppeFlikBack").click(function() {
         
-    $(".meny-sistasida").toggleClass("meny-flipped").delay(500).queue(function(next){
+    $(".meny-sistasida").toggleClass("meny-flipped").delay(600).queue(function(next){
             $(".meny-sistasida").toggleClass("meny-sistasida-2");
          next();
-        $(".meny-andrasida").toggleClass("meny-flipped").delay(500).queue(function(next){
+        $(".meny-andrasida").toggleClass("meny-flipped").delay(600).queue(function(next){
             $(".meny-andrasida").toggleClass("meny-andrasida-2");
          
          $(".meny-forstasida").toggleClass("meny-flipped");
