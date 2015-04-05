@@ -118,6 +118,8 @@
 
 /*förstasida peppe del*/
 
+/*peppe header*/
+
 .peppe-header{
     
     margin-top: 10px;
@@ -125,19 +127,42 @@
     margin-right: 10px;
     display: flex; /* or inline-flex */
     flex-direction: row;
+    border-top: dotted thin lightgray;
+    border-left: dotted thin lightgray;
+    border-right: dotted thin lightgray;
     
 }
 
 .peppe-header-text h1{
     
   margin-left: 20px;
+  line-height: 90px;
+  font-size: 35px;
     
 }
 
+.peppe-header-img{
+    
+    margin: 10px;
+    
+}
+
+/*peppe section*/
+
 .peppe-section{
     
-    background-color: palevioletred;
+    /*background-color: palevioletred;*/
     height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-left: dotted thin lightgray;
+    border-right: dotted thin lightgray;
+
+}
+
+.peppe-section p{
+    
     margin-left: 10px;
     margin-right: 10px;
     
