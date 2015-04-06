@@ -52,6 +52,9 @@
     background-color: whitesmoke;
     width: 100%;
     float: left;
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 /*sista sida back*/

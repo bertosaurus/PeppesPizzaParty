@@ -7,6 +7,40 @@
 
     <a href="#"><div class="forstaSidapeppeFlikBack"><h3>Peppe</h3></div></a>
 
-    <div class="forstaSidapeppeTextBack"></div>
+    <div class="forstaSidapeppeTextBack">
 
+        <div class="pizza-header">
+            <h1>Peppes Pizzor</h1>
+        </div>
+        
+        <div class="pizza-section">
+
+        <h3>Pizza namn</h3>
+        <p>saker på pizzan</p>
+        <br>
+        <h3>Pizza namn</h3>
+        <p>saker på pizzan</p>
+        <br>
+        <h3>Pizza namn</h3>
+        <p>saker på pizzan</p>
+        <br>
+        <h3>Pizza namn</h3>
+        <p>saker på pizzan</p>
+        <br>
+        <h3>Pizza namn</h3>
+        <p>saker på pizzan</p>
+        <br>
+        <h3>Pizza namn</h3>
+        <p>saker på pizzan</p>
+        <br>
+        <h3>Pizza namn</h3>
+        <p>saker på pizzan</p>
+        <br>
+        <h3>Pizza namn</h3>
+        <p>saker på pizzan</p>
+        
+        </div>
+        <?php include 'footer.inc.php'; ?>
+
+    </div>    
 </div>

@@ -20,5 +20,4 @@
         <a href ="https://twitter.com/?lang=sv"><img src="img/twittericon.png" class="img-responsive" alt="Responsive image"></a>
         </div>
     </div>
-
 </div>

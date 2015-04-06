@@ -114,6 +114,9 @@
     border-bottom: solid thin lightgray;
     width: 100%;
     float: left;
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 /*förstasida peppe del*/
@@ -151,8 +154,6 @@
 
 .peppe-section{
     
-    /*background-color: palevioletred;*/
-    height: 400px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
@@ -166,4 +167,54 @@
     margin-left: 10px;
     margin-right: 10px;
     
+}
+
+/*pizza del*/
+
+/*pizza header*/
+
+.pizza-header{
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    border-top: dotted thin lightgray;
+    border-left: dotted thin lightgray;
+    border-right: dotted thin lightgray;
+    
+}
+
+.pizza-header h1{
+
+    margin: 10px;
+    margin-bottom: 50px;
+    font-size: 35px;
+
+}
+
+/*pizza section*/
+
+.pizza-section{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    border-left: dotted thin lightgray;
+    border-right: dotted thin lightgray;
+
+}
+
+.pizza-section h3{
+        
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.pizza-section p{
+       
+    margin: 0;
+    margin-left: 25px;
+    padding: 0;
 }

@@ -8,6 +8,16 @@
 
     <a href="#"><div class="andraSidaPartyFlikBack"></div></a>
 
-    <div class="andraSidaPizzaTextBack"></div>
+    <div class="andraSidaPizzaTextBack">
+        
+        <div class="party-header">
+
+            <h1>Party</h1>
+
+        </div>
+        
+        <?php include 'footer.inc.php'; ?>
+        
+    </div>
 
 </div>
