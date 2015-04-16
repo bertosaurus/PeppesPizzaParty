@@ -107,8 +107,8 @@ a:hover{
   position: relative;
   perspective: 2000px;
   z-index: 100;
-  margin-top: -851px;
-  /*margin-top: 50px;*/
+  /*margin-top: -851px;*/
+  margin-top: 50px;
 }
 
 .meny-flipped {

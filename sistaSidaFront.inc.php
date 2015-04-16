@@ -12,7 +12,7 @@
 
         <div class="party-header">
 
-            <h1>Party</h1>
+            <img src="http://placehold.it/548x75">
 
         </div>
 
