@@ -15,6 +15,8 @@
         <link href="footer.css" rel="stylesheet">
     </head>
     <body class="body-1">
+        
+        <div class="sky-bild"></div>
 
 
         <div class="container">

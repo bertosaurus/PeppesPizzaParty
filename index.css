@@ -5,9 +5,13 @@
     
 }
 
-.body-2{
+.sky-bild{
     
-    background-image: url("img/rödvit.jpg");
+    background-image: url("img/rödvit.png");
+    position: absolute;
+    right: -1920px;
+    width: 1920px;
+    height: 1080px;
     
 }
 
@@ -46,6 +50,7 @@ a:hover{
   height: 900px;
   position: relative;
   perspective: 800px;
+  padding: 0px;
   
   
 }
@@ -74,16 +79,17 @@ a:hover{
 
 #card .front {
     
-  background: yellow;
-  border-radius: 50%;
+  /*background: yellow;*/
+  background-image: url("img/pizza.png");
+  /*border-radius: 50%;*/
   cursor: pointer;
   
 }
 #card .back {
     
-  background: white;
-  border: solid thin black;
-  border-radius: 50%;
+  /*background: white;*/
+  background-image: url("img/tallrik.png");
+  /*border-radius: 50%;*/
   transform: rotateY( 180deg );
   
 }
@@ -107,8 +113,8 @@ a:hover{
   position: relative;
   perspective: 2000px;
   z-index: 100;
-  /*margin-top: -851px;*/
-  margin-top: 50px;
+  margin-top: -851px;
+  /*margin-top: 50px;*/
 }
 
 .meny-flipped {

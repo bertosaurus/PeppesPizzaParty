@@ -6,10 +6,13 @@ $(document).ready(function() {
         $("#card").toggleClass("flipped")
         console.log("klick körs. Knapp gömd.");
         
-        $(".body-1").toggleClass("body-2");
+//        bytt bild
+//        $("body").toggleClass("body-1");
+//        $("body").toggleClass("sky-bild");
+        $(".sky-bild").animate({left: 0}, "slow");
 
         $(this).parent().parent().parent().parent().children(".meny-div")
-                .delay(2500).animate({top: 900}, 3000)
+                .delay(2500).animate({top: 900}, 3000);
     });
     
 //    framsida
