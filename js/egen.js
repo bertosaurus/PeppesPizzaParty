@@ -7,10 +7,9 @@ $(document).ready(function() {
         console.log("klick körs. Knapp gömd.");
         
 //        bytt bild
-//        $("body").toggleClass("body-1");
-//        $("body").toggleClass("sky-bild");
-        $(".sky-bild").animate({left: 0}, "slow");
+        $(".skyImg").animate({left: 0}, 2750);       
 
+//dra ner meny
         $(this).parent().parent().parent().parent().children(".meny-div")
                 .delay(2500).animate({top: 900}, 3000);
     });

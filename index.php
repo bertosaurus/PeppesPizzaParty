@@ -14,9 +14,9 @@
         <link href="sistaSida.css" rel="stylesheet">
         <link href="footer.css" rel="stylesheet">
     </head>
-    <body class="body-1">
+    <body>
         
-        <div class="sky-bild"></div>
+        <div class="skyImg"></div>
 
 
         <div class="container">
