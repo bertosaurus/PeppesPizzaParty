@@ -1,4 +1,5 @@
-     
+<!--<link href="forstaSida.css" rel="stylesheet">   -->
+
 <div class="forstaSidaBackWrapper">
 
     <div class="forstaSidapartyFlikBack"></div>
@@ -12,33 +13,37 @@
         <div class="pizza-header">
             <h1>Peppes Pizzor</h1>
         </div>
-        
+
         <div class="pizza-section">
 
-        <h3>Pizza namn</h3>
-        <p>saker på pizzan</p>
-        <br>
-        <h3>Pizza namn</h3>
-        <p>saker på pizzan</p>
-        <br>
-        <h3>Pizza namn</h3>
-        <p>saker på pizzan</p>
-        <br>
-        <h3>Pizza namn</h3>
-        <p>saker på pizzan</p>
-        <br>
-        <h3>Pizza namn</h3>
-        <p>saker på pizzan</p>
-        <br>
-        <h3>Pizza namn</h3>
-        <p>saker på pizzan</p>
-        <br>
-        <h3>Pizza namn</h3>
-        <p>saker på pizzan</p>
-        <br>
-        <h3>Pizza namn</h3>
-        <p>saker på pizzan</p>
-        
+            <ul>
+                <li>
+                    <div class="ruta"></div>
+                    <h3>Pizza namn</h3>
+                    <p>saker på pizzan</p>
+                </li>
+                <li>
+                    <h3>Pizza namn</h3>
+                    <p>saker på pizzan</p>
+                </li>
+                <li>
+                    <h3>Pizza namn</h3>
+                    <p>saker på pizzan</p>
+                </li>
+                <li>
+                    <h3>Pizza namn</h3>
+                    <p>saker på pizzan</p>
+                </li>
+                <li>
+                    <h3>Pizza namn</h3>
+                    <p>saker på pizzan</p>
+                </li>
+                <li>
+                    <h3>Pizza namn</h3>
+                    <p>saker på pizzan</p>
+                </li>
+            </ul>
+
         </div>
         <?php include 'footer.inc.php'; ?>
 

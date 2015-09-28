@@ -9,7 +9,7 @@ $(document).ready(function() {
 //        bytt bild
         $(".skyImg").animate({left: 0}, 2750);       
 
-//dra ner meny
+//dra ner menyn
         $(this).parent().parent().parent().parent().children(".meny-div")
                 .delay(2500).animate({top: 900}, 3000);
     });
@@ -131,10 +131,10 @@ $("a .sistaSidaPeppeFlikBack").click(function() {
     });
 });
 
-//footer click
+//Kryssa i funktion på pizza sidan
 
-//$(".footerWrapper a").click(function() {
-//        
-//        $(".meny-sistasida").toggleClass("meny-flipped");
-//         $(".meny-sistasida").toggleClass("meny-sistasida-2");
-//    });        
+$("a .ruta").click(function() {
+    
+    $(".ruta").toggleClass("ruta2");
+    
+});
